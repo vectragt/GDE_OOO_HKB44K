@@ -3,10 +3,6 @@
 from abc import ABC, abstractmethod
 from datetime import datetime
 
-# (absztrakt osztály): Definiálja a járat alapvető attribútumait (járatszám, célállomás, jegyár).
-
-from abc import ABC, abstractmethod
-from datetime import datetime
 
 class Jarat(ABC):
     def __init__(self, jaratszam: str, indulas: datetime, celallomas: str, alap_ar: float):
